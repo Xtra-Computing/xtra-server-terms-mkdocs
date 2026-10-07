@@ -3,7 +3,7 @@
 Terms of use and user guides for the Xtra Computing Server, built with
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-Site: https://www.junyi.dev/xtra-server-terms-mkdocs/
+Site: https://xtra-computing.github.io/xtra-server-terms-mkdocs/
 
 Content is migrated from [Xtra-Computing/xtra-server-terms](https://github.com/Xtra-Computing/xtra-server-terms).
 
