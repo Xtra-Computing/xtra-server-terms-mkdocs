@@ -18,6 +18,22 @@ working SSH session. It covers regular user access only.
 5. Keep independent backups of important data and checkpoint long-running jobs.
    Server storage and uninterrupted computation are not guaranteed.
 
+## Connecting to the servers
+
+!!! warning
+    Since 1 August 2026, Xtra Computing servers are no longer reachable from the
+    public network.
+
+Connect through this path:
+
+```text
+NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
+```
+
+1. Connect to the NUS VPN.
+2. SSH into the SoC sjump jump host.
+3. From sjump, SSH into the Xtra Computing server assigned to you.
+
 ## Server addresses
 
 Prefer the published DNS hostnames over numeric IP addresses because the
@@ -28,16 +44,23 @@ addresses behind `*.ddns.comp.nus.edu.sg` may change.
 | Server | SSH hostname | Resource or role | Notes |
 |---|---|---|---|
 | `xtra3090` | `xtra3090.ddns.comp.nus.edu.sg` | 8 × RTX 3090 |  |
-| `xtrah100` | `xtrah100.ddns.comp.nus.edu.sg` | 4 × H100 | Requires SoC VPN or NUS Wi-Fi. |
-| `xtrah200` | `xtrah200.ddns.comp.nus.edu.sg` | 4 × H200 | Requires SoC VPN or NUS Wi-Fi. |
-| `xtraa100` | `xtraa100.ddns.comp.nus.edu.sg` | 8 × HGX A100 80 GB | Requires SoC VPN or NUS Wi-Fi. |
-| `xtraa6k01` | `xtraa6k01.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB | Requires SoC VPN or NUS Wi-Fi. |
-| `xtraa6k02` | `xtraa6k02.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB | Requires SoC VPN or NUS Wi-Fi. |
-| `xtraa6k03` | `xtraa6k03.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB | Requires SoC VPN or NUS Wi-Fi. |
-| `xtraa6k04` | `xtraa6k04.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB | Requires SoC VPN or NUS Wi-Fi. |
+| `xtrah100` | `xtrah100.ddns.comp.nus.edu.sg` | 4 × H100 |  |
+| `xtrah200` | `xtrah200.ddns.comp.nus.edu.sg` | 4 × H200 |  |
+| `xtraa100` | `xtraa100.ddns.comp.nus.edu.sg` | 8 × HGX A100 80 GB |  |
+| `xtraa6k01` | `xtraa6k01.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
+| `xtraa6k02` | `xtraa6k02.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
+| `xtraa6k03` | `xtraa6k03.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
+| `xtraa6k04` | `xtraa6k04.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
 | `xtra-v80-0` | `xtra-v80-0.ddns.comp.nus.edu.sg` | Resource not recorded in the inventory | Confirm suitability with the administrator before use. |
 | `xtra-v80-1` | `xtra-v80-1.ddns.comp.nus.edu.sg` | Resource not recorded in the inventory | Confirm suitability with the administrator before use. |
 | `xacchead` | `xacchead.ddns.comp.nus.edu.sg` | HACC entry; 11 FPGA/AMD GPU nodes | Submit the [FPGA server account application](https://forms.gle/fvfPgJypd1sSWzHm8). |
+
+## Locked out after failed logins
+
+The servers block an IP address for **15 minutes** after **6 failed SSH login
+attempts within 10 minutes**. If your login is suddenly refused after several
+wrong passwords, wait 15 minutes before trying again. If you are still blocked
+after that, contact the administrator.
 
 ## Responsible use of group resources
 
