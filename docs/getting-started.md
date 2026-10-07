@@ -13,9 +13,9 @@ working SSH session. It covers regular user access only.
    GPUs, storage, backups, security, and account expiration.
 2. Submit the [Xtra server account application](https://forms.gle/Wf8qbNeuSPS2ia8u6).
    For FPGA servers, submit the [FPGA server account application](https://forms.gle/fvfPgJypd1sSWzHm8).
-3. Wait for confirmation. After approval, you will receive a separate email
+3. Wait for confirmation. **After approval, you will receive a separate email
    with your username, password, server addresses, and the resources on each
-   server.
+   server.**
 4. Log in using SSH and complete the first-login checks in this guide.
 5. Keep independent backups of important data and checkpoint long-running jobs.
    Server storage and uninterrupted computation are not guaranteed.
