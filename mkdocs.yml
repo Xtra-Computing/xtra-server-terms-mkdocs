@@ -1,0 +1,74 @@
+site_name: Xtra Computing Server Docs
+site_description: Terms of use and user guides for the Xtra Computing Server
+site_url: https://junyi-99.github.io/xtra-server-terms-mkdocs/
+repo_url: https://github.com/Junyi-99/xtra-server-terms-mkdocs
+repo_name: xtra-server-terms-mkdocs
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2025 Xtra Computing Group
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle: {icon: material/brightness-7, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle: {icon: material/brightness-4, name: Switch to light mode}
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Terms of Use: 使用条款
+            Guides: 指南
+            Getting Started: 新人指南
+            Containers (Apptainer): 容器（Apptainer）
+            Rootless Docker (deprecated): Rootless Docker（已停用）
+            Network Policy: 网络政策
+            Admin Liability: 管理员责任边界
+
+nav:
+  - Terms of Use: index.md
+  - Guides:
+      - Getting Started: getting-started.md
+      - Containers (Apptainer): apptainer.md
+      - Rootless Docker (deprecated): docker.md
+      - Network Policy: network.md
+      - Admin Liability: admin-liability.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      # keep unicode so Chinese anchors like #账号管理 match GitHub's slugs
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink

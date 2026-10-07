@@ -1,0 +1,3 @@
+mkdocs<2  # 2.0 drops the plugin system
+mkdocs-material==9.*
+mkdocs-static-i18n==1.*
