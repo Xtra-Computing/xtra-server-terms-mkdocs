@@ -11,14 +11,14 @@ and academic work in the Xtra Computing Group. Start with the pages below.
 
 <div class="grid cards" markdown>
 
--   :material-file-document-outline:{ .lg .middle } **Terms of Use**
+-   :material-rocket-launch-outline:{ .lg .middle } **Getting Started**
 
     ---
 
-    Rules for accounts, acceptable use, disk, GPU, CPU, and memory.
-    All users must read and accept them.
+    Apply for an account, connect over SSH, and learn the rules for
+    containers, network, and disk storage.
 
-    [:octicons-arrow-right-24: Read the terms](terms.md)
+    [:octicons-arrow-right-24: Get started](getting-started.md)
 
 -   :material-flask-outline:{ .lg .middle } **Methodology**
 
@@ -28,14 +28,14 @@ and academic work in the Xtra Computing Group. Start with the pages below.
 
     [:octicons-arrow-right-24: Methodology](methodology.md)
 
--   :material-rocket-launch-outline:{ .lg .middle } **Getting Started**
+-   :material-file-document-outline:{ .lg .middle } **Terms of Use**
 
     ---
 
-    Apply for an account, connect over SSH, and learn the rules for
-    containers, network, and disk storage.
+    Rules for accounts, acceptable use, disk, GPU, CPU, and memory.
+    All users must read and accept them.
 
-    [:octicons-arrow-right-24: Get started](getting-started.md)
+    [:octicons-arrow-right-24: Read the terms](terms.md)
 
 </div>
 

@@ -63,10 +63,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Terms:
-      - Terms of Use: terms.md
-      - Admin Liability: admin-liability.md
-  - Methodology: methodology.md
   - Getting Started:
       - Overview: getting-started.md
       - Containers:
@@ -74,6 +70,10 @@ nav:
           - Rootless Docker (deprecated): docker.md
       - Network: network.md
       - Disk: disk.md
+  - Methodology: methodology.md
+  - Terms:
+      - Terms of Use: terms.md
+      - Admin Liability: admin-liability.md
 
 extra:
   generator: false  # hide "Made with Material for MkDocs"
