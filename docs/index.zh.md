@@ -36,5 +36,3 @@ Xtra Computing 服务器为 Xtra Computing 研究组的科研与学术工作提�
     [:octicons-arrow-right-24: 阅读使用条款](terms.md)
 
 </div>
-
-新用户请通过[注册表单](https://forms.gle/Wf8qbNeuSPS2ia8u6)申请账号。如有疑问，请见[联系方式](terms.md#联系方式)。

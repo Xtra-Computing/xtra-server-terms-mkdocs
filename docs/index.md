@@ -38,7 +38,3 @@ and academic work in the Xtra Computing Group. Start with the pages below.
     [:octicons-arrow-right-24: Read the terms](terms.md)
 
 </div>
-
-New users apply through the
-[registration form](https://forms.gle/Wf8qbNeuSPS2ia8u6). For questions, see
-[Contact](terms.md#contact).
