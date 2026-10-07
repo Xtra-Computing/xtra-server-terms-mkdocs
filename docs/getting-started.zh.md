@@ -11,7 +11,7 @@
    安全和账号到期规则。
 2. 填写 [Xtra 服务器账号申请表](https://forms.gle/Wf8qbNeuSPS2ia8u6)。
    如需使用 FPGA 服务器，请填写 [FPGA 服务器账号申请表](https://forms.gle/fvfPgJypd1sSWzHm8)。
-3. 等待管理员确认。**申请通过后，您会收到一封单独的邮件，包含用户名、密码、服务器地址以及各服务器拥有的资源。**
+3. 等待管理员确认。**申请通过后，您会收到一封单独的邮件，包含用户名、密码、服务器地址以及各服务器拥有的资源。**这些信息属于保密内容，请勿泄露。
 4. 使用 SSH 登录，并完成本文的首次登录检查。
 5. 为重要数据保留独立备份，为长任务保存 checkpoint。服务器不保证数据持久性，
    也不保证计算任务不中断。
@@ -30,13 +30,6 @@ NUS VPN  ->  SoC sjump 跳板机  ->  Xtra Computing 服务器
 1. 连接 [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/)。
 2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) 跳板机。
 3. 从 sjump 再 SSH 登录分配给你的 Xtra Computing 服务器。
-
-## 服务器地址
-
-本站不公开服务器地址。申请通过后，您会收到一封单独的邮件，告知您可使用的服务器地址及各服务器拥有的资源。
-
-!!! danger "保密"
-    服务器地址与资源信息属于保密内容，请勿泄露。
 
 ## 登录失败被封禁
 

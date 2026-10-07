@@ -15,7 +15,7 @@ working SSH session. It covers regular user access only.
    For FPGA servers, submit the [FPGA server account application](https://forms.gle/fvfPgJypd1sSWzHm8).
 3. Wait for confirmation. **After approval, you will receive a separate email
    with your username, password, server addresses, and the resources on each
-   server.**
+   server.** These details are confidential. Do not share them.
 4. Log in using SSH and complete the first-login checks in this guide.
 5. Keep independent backups of important data and checkpoint long-running jobs.
    Server storage and uninterrupted computation are not guaranteed.
@@ -35,15 +35,6 @@ NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
 1. Connect to the [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/).
 2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) jump host.
 3. From sjump, SSH into the Xtra Computing server assigned to you.
-
-## Server addresses
-
-Server addresses are not published on this site. After your application is
-approved, you will receive a separate email with the addresses of the servers
-you may use and the resources each server has.
-
-!!! danger "Confidential"
-    Server addresses and resource details are confidential. Do not share them.
 
 ## Locked out after failed logins
 
