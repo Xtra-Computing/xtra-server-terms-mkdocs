@@ -51,6 +51,10 @@ plugins:
             Network Policy: 网络政策
             Admin Liability: 管理员责任边界
 
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+
 nav:
   - Terms of Use: index.md
   - Guides:
