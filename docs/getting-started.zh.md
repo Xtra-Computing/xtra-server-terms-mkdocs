@@ -26,8 +26,8 @@
 NUS VPN  ->  SoC sjump 跳板机  ->  Xtra Computing 服务器
 ```
 
-1. 连接 NUS VPN。
-2. SSH 登录 SoC sjump 跳板机。
+1. 连接 [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/)。
+2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) 跳板机。
 3. 从 sjump 再 SSH 登录分配给你的 Xtra Computing 服务器。
 
 ## 服务器地址

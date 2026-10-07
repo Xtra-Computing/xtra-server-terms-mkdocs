@@ -33,6 +33,9 @@ extra_css:
   - stylesheets/extra.css
 
 
+hooks:
+  - hooks.py
+
 plugins:
   - search
   - i18n:

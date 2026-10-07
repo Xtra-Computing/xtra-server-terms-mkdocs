@@ -30,8 +30,8 @@ Connect through this path:
 NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
 ```
 
-1. Connect to the NUS VPN.
-2. SSH into the SoC sjump jump host.
+1. Connect to the [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/).
+2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) jump host.
 3. From sjump, SSH into the Xtra Computing server assigned to you.
 
 ## Server addresses
