@@ -4,11 +4,14 @@ site_url: https://www.junyi.dev/xtra-server-terms-mkdocs/
 repo_url: https://github.com/Junyi-99/xtra-server-terms-mkdocs
 repo_name: xtra-server-terms-mkdocs
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2025 Xtra Computing Group
+copyright: Copyright &copy; 2026 Xtra Computing Group
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   features:
+    - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -19,7 +22,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
+      primary: black
       toggle: {icon: material/brightness-7, name: Switch to dark mode}
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -43,26 +46,37 @@ plugins:
           name: 中文
           build: true
           nav_translations:
+            Home: 首页
+            Terms: 条款
             Terms of Use: 使用条款
-            Guides: 指南
-            Getting Started: 新人指南
-            Containers (Apptainer): 容器（Apptainer）
-            Rootless Docker (deprecated): Rootless Docker（已停用）
-            Network Policy: 网络政策
             Admin Liability: 管理员责任边界
+            Getting Started: 新人指南
+            Overview: 概览
+            Containers: 容器
+            Rootless Docker (deprecated): Rootless Docker（已停用）
+            Network: 网络
+            Disk: 磁盘
 
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
 
 nav:
-  - Terms of Use: index.md
-  - Guides:
-      - Getting Started: getting-started.md
-      - Containers (Apptainer): apptainer.md
-      - Rootless Docker (deprecated): docker.md
-      - Network Policy: network.md
+  - Home: index.md
+  - Terms:
+      - Terms of Use: terms.md
       - Admin Liability: admin-liability.md
+  - Methodology: methodology.md
+  - Getting Started:
+      - Overview: getting-started.md
+      - Containers:
+          - Apptainer: apptainer.md
+          - Rootless Docker (deprecated): docker.md
+      - Network: network.md
+      - Disk: disk.md
+
+extra:
+  generator: false  # hide "Made with Material for MkDocs"
 
 markdown_extensions:
   - admonition
@@ -80,3 +94,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

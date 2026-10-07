@@ -1,8 +1,9 @@
 # 容器：Docker 停用与 Apptainer 迁移
 
-*最后更新：2026-09-02*
-
-<sub>Approved by Junyi Hou and Hongshi Tan.</sub>
+<div class="page-meta" markdown>
+<span>:material-calendar-check: 最后更新：2026-09-02</span>
+<span>:material-account-check-outline: Approved by Junyi Hou and Hongshi Tan.</span>
+</div>
 
 !!! info "重要"
     **自 2026 年 9 月底（2026-09-30）起，普通用户默认不再拥有 Docker 权限。**
@@ -166,7 +167,7 @@ apptainer instance stop myservice
 3. 预计需要的时长。
 
 例外由管理员酌情批准，可能设有期限，并可因安全或运维原因随时撤销。Docker 权限同样
-适用[使用条款](index.md#docker-引发的违规)中的累进处理机制。
+适用[使用条款](terms.md#docker-引发的违规)中的累进处理机制。
 
 ## 相关文档
 

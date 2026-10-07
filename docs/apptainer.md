@@ -1,8 +1,9 @@
 # Containers: Docker Deprecation and Apptainer
 
-*Last updated: 2026-09-02*
-
-<sub>Approved by Junyi Hou and Hongshi Tan.</sub>
+<div class="page-meta" markdown>
+<span>:material-calendar-check: Last updated: 2026-09-02</span>
+<span>:material-account-check-outline: Approved by Junyi Hou and Hongshi Tan.</span>
+</div>
 
 !!! info "Important"
     **Docker access for regular users will be removed by default at the end of
@@ -182,7 +183,7 @@ advance** — before 2026-09-30 — with:
 Exceptions are granted at the administrator's discretion, may be time-limited,
 and may be revoked at any time for security or operational reasons. Docker
 privileges also remain subject to the escalation schedule in the
-[Terms of Use](index.md#docker-induced-violations).
+[Terms of Use](terms.md#docker-induced-violations).
 
 ## See also
 

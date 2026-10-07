@@ -3,7 +3,7 @@
 !!! warning
     **Deprecated.** Docker access for regular users is being removed by default at
     the end of September 2026 (from 2026-09-30). Use
-    [Apptainer](apptainer.md) instead — it runs most Docker/OCI images unchanged.
+    [Apptainer](apptainer.md) instead.
     This page is kept for reference, and for users who have been granted an
     explicit exception.
 

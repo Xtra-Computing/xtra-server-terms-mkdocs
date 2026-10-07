@@ -1,6 +1,8 @@
 # Getting Started with Xtra Computing Servers
 
-*Last reviewed: 2026-08-12*
+<div class="page-meta" markdown>
+<span>:material-calendar-search: Last reviewed: 2026-08-12</span>
+</div>
 
 This guide takes new users from applying for an account to establishing a
 working SSH session. It covers regular user access only.
@@ -11,7 +13,7 @@ working SSH session. It covers regular user access only.
 
 ## End-to-end onboarding
 
-1. Read and accept the [Terms of Use](index.md), especially the rules on
+1. Read and accept the [Terms of Use](terms.md), especially the rules on
    GPUs, storage, backups, security, and account expiration.
 2. Submit the [Xtra server account application](https://forms.gle/Wf8qbNeuSPS2ia8u6).
 3. Wait for confirmation. The administrator will send you an email containing

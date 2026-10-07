@@ -1,6 +1,8 @@
 # Xtra Computing 服务器新人使用指南
 
-*最后核对：2026-08-12*
+<div class="page-meta" markdown>
+<span>:material-calendar-search: 最后核对：2026-08-12</span>
+</div>
 
 本文帮助新同学从申请账号走到成功建立 SSH 会话，仅介绍普通用户接入。
 
@@ -9,7 +11,7 @@
 
 ## 从申请到可用的完整步骤
 
-1. 阅读并接受[服务器使用条款](index.md)，特别是 GPU、存储、备份、
+1. 阅读并接受[服务器使用条款](terms.md)，特别是 GPU、存储、备份、
    安全和账号到期规则。
 2. 填写 [Xtra 服务器账号申请表](https://forms.gle/Wf8qbNeuSPS2ia8u6)。
 3. 等待管理员确认。管理员会向您发送一封确认邮件包含 hostname、用户名、密码。

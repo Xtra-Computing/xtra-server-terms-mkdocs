@@ -1,10 +1,28 @@
 /* Monochrome: Material has no black/white accent, so set link + accent colors here */
-[data-md-color-scheme="default"] {
+[data-md-color-scheme="default"][data-md-color-primary] {
   --md-accent-fg-color: #000;
   --md-typeset-a-color: #000;
 }
-[data-md-color-scheme="slate"] {
+[data-md-color-scheme="slate"][data-md-color-primary] {
   --md-accent-fg-color: #fff;
   --md-typeset-a-color: #fff;
 }
 .md-typeset a { text-decoration: underline; text-underline-offset: 2px; }
+
+/* Page metadata line under the H1 (last updated / approved by) */
+.md-typeset .page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.2rem;
+  margin: -.6rem 0 1.4rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: .7rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .page-meta span { display: inline-flex; align-items: center; gap: .3rem; }
+.md-typeset .page-meta .twemoji svg { width: .9rem; height: .9rem; }
+.md-typeset .page-meta > p { display: contents; }
+
+/* Header logo: default 1.2rem is too small for the square group logo */
+.md-header__button.md-logo img { height: 1.8rem; }
