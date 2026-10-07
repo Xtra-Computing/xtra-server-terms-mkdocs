@@ -24,9 +24,9 @@ and academic work in the Xtra Computing Group. Start with the pages below.
 
     ---
 
-    Coming soon.
+    How we run the servers, and the reasons behind the rules.
 
-    [:octicons-arrow-right-24: Methodology](methodology.md)
+    [:octicons-arrow-right-24: Read the methodology](methodology.md)
 
 -   :material-file-document-outline:{ .lg .middle } **Terms of Use**
 

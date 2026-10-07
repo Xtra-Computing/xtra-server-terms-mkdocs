@@ -23,9 +23,9 @@ Xtra Computing 服务器为 Xtra Computing 研究组的科研与学术工作提�
 
     ---
 
-    即将上线。
+    我们如何管理服务器，以及各项规则背后的理由。
 
-    [:octicons-arrow-right-24: Methodology](methodology.md)
+    [:octicons-arrow-right-24: 阅读 Methodology](methodology.md)
 
 -   :material-file-document-outline:{ .lg .middle } **使用条款**
 
