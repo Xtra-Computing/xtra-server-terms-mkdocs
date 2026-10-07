@@ -1,9 +1,5 @@
 # Xtra Computing 服务器新人使用指南
 
-<div class="page-meta" markdown>
-<span>:material-calendar-search: 最后核对：2026-08-12</span>
-</div>
-
 本文帮助新同学从申请账号走到成功建立 SSH 会话，仅介绍普通用户接入。
 
 !!! info "重要"

@@ -1,9 +1,5 @@
 # Terms of Use - Xtra Computing Server
 
-<div class="page-meta" markdown>
-<span>:material-calendar-check: Last updated: 2026-09-02</span>
-</div>
-
 **Introduction**
 The Xtra Computing Server provides computational resources (GPU, CPU, memory, and storage) primarily to support research and academic activities. Users must follow the guidelines outlined in this document to ensure fair resource allocation and maintain a productive computing environment.
 
@@ -237,5 +233,3 @@ For detailed administrator boundaries, see: [Admin Liability](admin-liability.md
 ## Contact
 
 For all administrative requests, policy questions, or exception applications, contact the administrator at: **hhh@u.nus.edu**
-
-Last update: August 14, 2026

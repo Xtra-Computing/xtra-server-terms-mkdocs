@@ -1,9 +1,5 @@
 # 使用条款 - Xtra Computing 服务器
 
-<div class="page-meta" markdown>
-<span>:material-calendar-check: 最后更新：2026-09-02</span>
-</div>
-
 > 本文为英文版 [Terms of Use](terms.md) 的中文译本，仅供参考。如中英文表述存在歧义或冲突，以英文版为准。
 
 **简介**
@@ -233,5 +229,3 @@ Apptainer 以你自己的用户身份运行容器，不需要守护进程，也�
 ## 联系方式
 
 所有管理事务、政策咨询或例外申请，请联系管理员：**hhh@u.nus.edu**
-
-最后更新：2026 年 9 月 2 日

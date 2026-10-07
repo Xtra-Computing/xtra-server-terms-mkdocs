@@ -1,7 +1,6 @@
 # Containers: Docker Deprecation and Apptainer
 
 <div class="page-meta" markdown>
-<span>:material-calendar-check: Last updated: 2026-09-02</span>
 <span>:material-account-check-outline: Approved by Junyi Hou and Hongshi Tan.</span>
 </div>
 

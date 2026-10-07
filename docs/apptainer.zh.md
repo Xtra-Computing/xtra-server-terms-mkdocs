@@ -1,7 +1,6 @@
 # 容器：Docker 停用与 Apptainer 迁移
 
 <div class="page-meta" markdown>
-<span>:material-calendar-check: 最后更新：2026-09-02</span>
 <span>:material-account-check-outline: Approved by Junyi Hou and Hongshi Tan.</span>
 </div>
 

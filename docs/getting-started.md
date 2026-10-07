@@ -1,9 +1,5 @@
 # Getting Started with Xtra Computing Servers
 
-<div class="page-meta" markdown>
-<span>:material-calendar-search: Last reviewed: 2026-08-12</span>
-</div>
-
 This guide takes new users from applying for an account to establishing a
 working SSH session. It covers regular user access only.
 
