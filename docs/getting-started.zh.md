@@ -10,7 +10,8 @@
 1. 阅读并接受[服务器使用条款](terms.md)，特别是 GPU、存储、备份、
    安全和账号到期规则。
 2. 填写 [Xtra 服务器账号申请表](https://forms.gle/Wf8qbNeuSPS2ia8u6)。
-3. 等待管理员确认。管理员会向您发送一封确认邮件包含 hostname、用户名、密码。
+   如需使用 FPGA 服务器，请填写 [FPGA 服务器账号申请表](https://forms.gle/fvfPgJypd1sSWzHm8)。
+3. 等待管理员确认。申请通过后，您会收到一封单独的邮件，包含用户名、密码、服务器地址以及各服务器拥有的资源。
 4. 使用 SSH 登录，并完成本文的首次登录检查。
 5. 为重要数据保留独立备份，为长任务保存 checkpoint。服务器不保证数据持久性，
    也不保证计算任务不中断。
@@ -32,25 +33,10 @@ NUS VPN  ->  SoC sjump 跳板机  ->  Xtra Computing 服务器
 
 ## 服务器地址
 
-请优先使用清单发布的 DNS 域名，不要保存数字 IP，因为
-`*.ddns.comp.nus.edu.sg` 背后的地址可能变化。
+本站不公开服务器地址。申请通过后，您会收到一封单独的邮件，告知您可使用的服务器地址及各服务器拥有的资源。
 
-### SoC 私网服务器
-
-| 服务器 | SSH 域名 | 资源或用途 | 说明 |
-|---|---|---|---|
-| `xtra3090` | `xtra3090.ddns.comp.nus.edu.sg` | 8 × RTX 3090 |  |
-| `xtrah100` | `xtrah100.ddns.comp.nus.edu.sg` | 4 × H100 |  |
-| `xtrah200` | `xtrah200.ddns.comp.nus.edu.sg` | 4 × H200 |  |
-| `xtraa100` | `xtraa100.ddns.comp.nus.edu.sg` | 8 × HGX A100 80 GB |  |
-| `xtraa6k01` | `xtraa6k01.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k02` | `xtraa6k02.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k03` | `xtraa6k03.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k04` | `xtraa6k04.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtra-v80-0` | `xtra-v80-0.ddns.comp.nus.edu.sg` | 清单未记录资源 | 使用前向管理员确认是否适合。 |
-| `xtra-v80-1` | `xtra-v80-1.ddns.comp.nus.edu.sg` | 清单未记录资源 | 使用前向管理员确认是否适合。 |
-| `xacchead` | `xacchead.ddns.comp.nus.edu.sg` | HACC 入口；11 个 FPGA/AMD GPU 节点 | 请填写 [FPGA 服务器账号申请表](https://forms.gle/fvfPgJypd1sSWzHm8) |
-
+!!! danger "保密"
+    服务器地址与资源信息属于保密内容，请勿泄露。
 
 ## 登录失败被封禁
 

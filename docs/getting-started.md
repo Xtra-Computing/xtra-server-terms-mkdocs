@@ -12,8 +12,10 @@ working SSH session. It covers regular user access only.
 1. Read and accept the [Terms of Use](terms.md), especially the rules on
    GPUs, storage, backups, security, and account expiration.
 2. Submit the [Xtra server account application](https://forms.gle/Wf8qbNeuSPS2ia8u6).
-3. Wait for confirmation. The administrator will send you an email containing
-   the hostname, username, and password.
+   For FPGA servers, submit the [FPGA server account application](https://forms.gle/fvfPgJypd1sSWzHm8).
+3. Wait for confirmation. After approval, you will receive a separate email
+   with your username, password, server addresses, and the resources on each
+   server.
 4. Log in using SSH and complete the first-login checks in this guide.
 5. Keep independent backups of important data and checkpoint long-running jobs.
    Server storage and uninterrupted computation are not guaranteed.
@@ -36,24 +38,12 @@ NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
 
 ## Server addresses
 
-Prefer the published DNS hostnames over numeric IP addresses because the
-addresses behind `*.ddns.comp.nus.edu.sg` may change.
+Server addresses are not published on this site. After your application is
+approved, you will receive a separate email with the addresses of the servers
+you may use and the resources each server has.
 
-### SoC private servers
-
-| Server | SSH hostname | Resource or role | Notes |
-|---|---|---|---|
-| `xtra3090` | `xtra3090.ddns.comp.nus.edu.sg` | 8 × RTX 3090 |  |
-| `xtrah100` | `xtrah100.ddns.comp.nus.edu.sg` | 4 × H100 |  |
-| `xtrah200` | `xtrah200.ddns.comp.nus.edu.sg` | 4 × H200 |  |
-| `xtraa100` | `xtraa100.ddns.comp.nus.edu.sg` | 8 × HGX A100 80 GB |  |
-| `xtraa6k01` | `xtraa6k01.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k02` | `xtraa6k02.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k03` | `xtraa6k03.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtraa6k04` | `xtraa6k04.ddns.comp.nus.edu.sg` | 2 × A6000 48 GB |  |
-| `xtra-v80-0` | `xtra-v80-0.ddns.comp.nus.edu.sg` | Resource not recorded in the inventory | Confirm suitability with the administrator before use. |
-| `xtra-v80-1` | `xtra-v80-1.ddns.comp.nus.edu.sg` | Resource not recorded in the inventory | Confirm suitability with the administrator before use. |
-| `xacchead` | `xacchead.ddns.comp.nus.edu.sg` | HACC entry; 11 FPGA/AMD GPU nodes | Submit the [FPGA server account application](https://forms.gle/fvfPgJypd1sSWzHm8). |
+!!! danger "Confidential"
+    Server addresses and resource details are confidential. Do not share them.
 
 ## Locked out after failed logins
 
