@@ -3,11 +3,8 @@
 **Introduction**
 The Xtra Computing Server provides computational resources (GPU, CPU, memory, and storage) primarily to support research and academic activities. Users must follow the guidelines outlined in this document to ensure fair resource allocation and maintain a productive computing environment.
 
-!!! info "Important"
-    Resources are intended for the use of Xtra Computing Group only.
-
 !!! warning
-    Any misuse may result in the termination of your computing tasks.
+    Resources are intended for the use of Xtra Computing Group only. Any misuse may result in the termination of your computing tasks.
 
 ## Account
 
