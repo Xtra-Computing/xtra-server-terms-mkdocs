@@ -1,0 +1,10 @@
+/* Monochrome: Material has no black/white accent, so set link + accent colors here */
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: #000;
+  --md-typeset-a-color: #000;
+}
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #fff;
+  --md-typeset-a-color: #fff;
+}
+.md-typeset a { text-decoration: underline; text-underline-offset: 2px; }
