@@ -27,9 +27,7 @@
 
 请按以下路径连接：
 
-```text
-NUS VPN  ->  SoC sjump 跳板机  ->  Xtra Computing 服务器
-```
+**[NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) → [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) 跳板机 → Xtra Computing 服务器**
 
 1. 连接 [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/)。
 2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) 跳板机。

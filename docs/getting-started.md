@@ -32,9 +32,7 @@ working SSH session. It covers regular user access only.
 
 Connect through this path:
 
-```text
-NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
-```
+**[NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) → [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) (jump host) → Xtra Computing server**
 
 1. Connect to the [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/).
 2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) jump host.
