@@ -19,7 +19,7 @@
 ## 连接服务器
 
 !!! warning "警告"
-    自 2026 年 8 月 1 日起，Xtra Computing 服务器不再提供公网访问。
+    [自 2026 年 6 月 29 日起](https://dochub.comp.nus.edu.sg/cf/tech/network/security-2026-06)，Xtra Computing 服务器不再提供公网访问。
 
 请按以下路径连接：
 

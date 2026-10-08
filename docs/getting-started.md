@@ -23,7 +23,7 @@ working SSH session. It covers regular user access only.
 ## Connecting to the servers
 
 !!! warning
-    Since 1 August 2026, Xtra Computing servers are no longer reachable from the
+    [Since 29 June 2026](https://dochub.comp.nus.edu.sg/cf/tech/network/security-2026-06), Xtra Computing servers are no longer reachable from the
     public network.
 
 Connect through this path:
