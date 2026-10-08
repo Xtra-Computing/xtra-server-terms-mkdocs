@@ -29,10 +29,6 @@
 
 **[NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) → [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) 跳板机 → Xtra Computing 服务器**
 
-1. 连接 [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/)。
-2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) 跳板机。
-3. 从 sjump 再 SSH 登录分配给你的 Xtra Computing 服务器。
-
 ## 登录失败被封禁
 
 10 分钟内 SSH 登录失败 **6 次**，服务器会封禁该 IP 地址 **15 分钟**。如果多次输错密码后突然无法登录，请等待 15 分钟再试。若之后仍无法登录，请联系管理员。

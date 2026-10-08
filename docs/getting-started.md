@@ -34,10 +34,6 @@ Connect through this path:
 
 **[NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) → [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) (jump host) → Xtra Computing server**
 
-1. Connect to the [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/).
-2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) jump host.
-3. From sjump, SSH into the Xtra Computing server assigned to you.
-
 ## Locked out after failed logins
 
 The servers block an IP address for **15 minutes** after **6 failed SSH login
