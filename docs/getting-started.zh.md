@@ -21,6 +21,10 @@
 !!! warning "警告"
     [自 2026 年 6 月 29 日起](https://dochub.comp.nus.edu.sg/cf/tech/network/security-2026-06)，Xtra Computing 服务器不再提供公网访问。
 
+    > All inbound SSH to Research Server computers must be from within NUS. NUS
+    > users who are outside NUS must use NUS VPN. Non-NUS users must obtain a NUS
+    > visitor account from their NUS host to use NUS VPN.
+
 请按以下路径连接：
 
 ```text
@@ -28,7 +32,7 @@ NUS VPN  ->  SoC sjump 跳板机  ->  Xtra Computing 服务器
 ```
 
 1. 连接 [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/)。
-2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) 跳板机。
+2. SSH 登录 [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) 跳板机。
 3. 从 sjump 再 SSH 登录分配给你的 Xtra Computing 服务器。
 
 ## 登录失败被封禁

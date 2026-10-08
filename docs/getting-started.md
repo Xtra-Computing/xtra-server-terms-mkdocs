@@ -26,6 +26,10 @@ working SSH session. It covers regular user access only.
     [Since 29 June 2026](https://dochub.comp.nus.edu.sg/cf/tech/network/security-2026-06), Xtra Computing servers are no longer reachable from the
     public network.
 
+    > All inbound SSH to Research Server computers must be from within NUS. NUS
+    > users who are outside NUS must use NUS VPN. Non-NUS users must obtain a NUS
+    > visitor account from their NUS host to use NUS VPN.
+
 Connect through this path:
 
 ```text
@@ -33,7 +37,7 @@ NUS VPN  ->  SoC sjump (jump host)  ->  Xtra Computing server
 ```
 
 1. Connect to the [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/).
-2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/services/network/sjump) jump host.
+2. SSH into the [SoC sjump](https://dochub.comp.nus.edu.sg/cf/guides/sjump/start) jump host.
 3. From sjump, SSH into the Xtra Computing server assigned to you.
 
 ## Locked out after failed logins
